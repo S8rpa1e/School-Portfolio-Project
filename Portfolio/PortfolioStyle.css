@@ -1,0 +1,94 @@
+body{
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+#Box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -312.5px;
+    background-color: whitesmoke;
+    display: flex;
+    width: 625px;
+    height: 450px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    transition: 1s;
+    opacity: 0.1;
+}
+#Box:hover{
+    transform:scale(1.2);
+    opacity: .75;
+}
+
+#Naam{
+    position: relative;
+    left: 200px;
+    top: 25px;
+}
+#Career{
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    padding-top: 100px;
+    left: 200px;
+}
+#Motto{
+    position: absolute;
+    font-size: 24px;
+    top: 160px;
+    padding-left: 50px;
+}
+
+img[src="Foto.jpg"]{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: scale(0.5);
+    margin-top: -125px;
+    margin-left: -125px;
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    transition: 1s;
+}
+img[src="Foto.jpg"]:hover{
+    transform: scale(0.6);
+}
+img[src="Background2.jpg"]{
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+button{
+    position: absolute;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 350px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    font-size: 20px;
+    border-color: lightgreen;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: lightblue;
+}
